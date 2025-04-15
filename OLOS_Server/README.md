@@ -34,6 +34,11 @@ After activating the virtual environment run the following command:
 python src/main.py
 ```
 
-### Customize the configuration
+## Customize the configuration
 
 Please modify the configuration of the machine in the `config.yaml` file before starting the server.
+
+## Customize the configuration
+If you would like to AI image generator, please create a folder in the main directory `AI_models` and install the model that you need, and put it inside the created folder.
+
+P.S. You can find supported models in the `config.yaml` file
