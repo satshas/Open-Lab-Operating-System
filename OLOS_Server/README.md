@@ -38,7 +38,7 @@ python src/main.py
 
 Please modify the configuration of the machine in the `config.yaml` file before starting the server.
 
-## Customize the configuration
+## AI Image generating usage
 If you would like to AI image generator, please create a folder in the main directory `AI_models` and install the model that you need, and put it inside the created folder.
 
 P.S. You can find supported models in the `config.yaml` file
