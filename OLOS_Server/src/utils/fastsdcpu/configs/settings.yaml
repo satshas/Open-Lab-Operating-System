@@ -1,0 +1,47 @@
+generated_images:
+  format: PNG
+  path: C:\Users\sulim\Desktop\OLOS\OLOS_Server\src\utils\fastsdcpu\results
+  save_image: true
+lcm_diffusion_setting:
+  clip_skip: 1
+  controlnet: null
+  diffusion_task: text_to_image
+  dirs:
+    controlnet: C:\Users\sulim\Desktop\OLOS\OLOS_Server\src\utils\fastsdcpu\controlnet_models
+    lora: C:\Users\sulim\Desktop\OLOS\OLOS_Server\src\utils\fastsdcpu\lora_models
+  gguf_model:
+    clip_path: null
+    diffusion_path: null
+    gguf_models: C:\Users\sulim\Desktop\OLOS\OLOS_Server\src\utils\fastsdcpu\models\gguf
+    t5xxl_path: null
+    vae_path: null
+  guidance_scale: 1.0
+  image_height: 512
+  image_width: 512
+  inference_steps: 1
+  init_image: null
+  lcm_lora:
+    base_model_id: Lykon/dreamshaper-8
+    lcm_lora_id: latent-consistency/lcm-lora-sdv1-5
+  lcm_model_id: rupeshs/hypersd-sd1-5-1-step-lora
+  lora:
+    enabled: false
+    fuse: true
+    models_dir: C:\Users\sulim\Desktop\OLOS\OLOS_Server\src\utils\fastsdcpu\lora_models
+    path: null
+    weight: 0.5
+  negative_prompt: do not show eiffel tower
+  number_of_images: 1
+  openvino_lcm_model_id: C:\Users\sulim\Desktop\OLOS\OLOS_Server\AI_models\rupeshs--sd-turbo-openvino
+  prompt: a flying car on paris
+  rebuild_pipeline: false
+  seed: -1
+  strength: 0.6
+  token_merging: 0.0
+  use_gguf_model: false
+  use_lcm_lora: false
+  use_offline_model: true
+  use_openvino: true
+  use_safety_checker: true
+  use_seed: false
+  use_tiny_auto_encoder: true

@@ -1,0 +1,7 @@
+// app global css in SCSS form
+#KioskBoard-VirtualKeyboard {
+  min-width: 100%;
+  transform: scaleY(0.9);
+  transform-origin: bottom center;
+  z-index: 200000 !important;
+}
